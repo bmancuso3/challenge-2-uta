@@ -36,4 +36,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## <a href="https://bmancuso3.github.io/challenge-2-uta">Live Site</a>
 
 ## Desired Format
-<img src="./assets/Images/Desired Format.png" alt="portfolio page example">
+### Large Device
+<img src="./assets/Images/Large Device.png" alt="portfolio page example">
+
+### Medium Device
+
+<img src="./assets/Images/Medium Device.png" alt="portfolio page example">
+
+### Small Device
+
+<img src="./assets/Images/Small Device.png" alt="portfolio page example">
