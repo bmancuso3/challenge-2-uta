@@ -1,0 +1,39 @@
+:root {
+    --charcoal: #2c2828;
+    --frost: #41bed2;
+    --sanguine: #6a0b0b;
+    --linen: #d5d4c8;
+}
+
+::selection {
+    background-color: var(--sanguine);
+    color: var(--frost);
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--charcoal);
+    color: var(--linen);
+}
+
+h1,
+h2 {
+    color: var(--frost);
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: left;
+}
