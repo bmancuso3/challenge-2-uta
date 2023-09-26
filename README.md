@@ -2,7 +2,7 @@
 Challenge 2 for UTA Coding Bootcamp
 
 ## Description
-This challenge requires the dev to refactor a site and increase accessibility and efficiency.
+This challenge requires the dev to create a web application showcasing their initial portfolio of work.  The focus is on any deployed projects to increase employability in the future!
 
 ## User Story
 ```
