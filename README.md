@@ -28,6 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## References
 1. <a href="https://www.w3schools.com/howto/howto_css_cards.asp"> W3Schools - How to Create a Card</a>
+2. <a href="https://www.formula1.com"> Ferrari Images</a>
 
 
 ## <a href="https://github.com/bmancuso3/challenge-2-uta">GitHub Repository</a>
