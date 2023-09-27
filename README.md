@@ -27,8 +27,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## References
-1. xxx
-<!-- Link: <a href="https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute"> Stack Overflow</a> -->
+1. <a href="https://www.w3schools.com/howto/howto_css_cards.asp"> W3Schools - How to Create a Card</a>
 
 
 ## <a href="https://github.com/bmancuso3/challenge-2-uta">GitHub Repository</a>

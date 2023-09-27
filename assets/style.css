@@ -1,12 +1,12 @@
 :root {
     --charcoal: #2c2828;
     --frost: #41bed2;
-    --sanguine: #6a0b0b;
+    --darkred: #6a0b0b;
     --linen: #d5d4c8;
 }
 
 ::selection {
-    background-color: var(--sanguine);
+    background-color: var(--darkred);
     color: var(--frost);
 }
 
@@ -91,7 +91,6 @@ section h2 {
 
 section p {
     display: flex;
-
     margin: 10px;
     padding: 10px;
 }
@@ -107,6 +106,33 @@ article h2 {
     border-right: solid 3px;
     text-align: right;
     min-width: 100px;
+}
+
+article h3 {
+    display: flex;
+    justify-content: center;
+    color: var(--charcoal);
+    background-color: var(--frost);
+    font-weight: bold;
+    font-size: 125%;
+    padding: 10px;
+    width: 150px;
+}
+
+.card {
+    
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(135, 43, 43, 0.943);
+    transition: 0.3s;
+    border: solid var(--frost) 3px;
+}
+
+.card:hover {
+    box-shadow: 0 12px 20px 0 rgba(233, 29, 29, 0.843);
+}
+
+.container {
+    padding: 2px 16px;
 }
 
 footer {
