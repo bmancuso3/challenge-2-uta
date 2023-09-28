@@ -187,7 +187,6 @@ footer h2 {
     justify-content: space-around;
     width: 100%;
     padding: 10px;
-    box-shadow: 0px 0px 6px 3px var(--frost);
 }
 
 footer ul li {
