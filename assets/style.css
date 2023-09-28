@@ -63,7 +63,7 @@ header nav ul li {
 figure {
     height: 150px;
     width: 100%;
-    background-image: linear-gradient(
+    background-color: linear-gradient(
         var(--sangiune) 0%,
         var(--charcoal) 100%
     );
@@ -79,69 +79,59 @@ figure h2 {
     float: right;
 }
 
-section {
+.section {
     display: flex;
     margin: 10;
     padding: 15px 15px 15px 50px;
 }
 
-section h2 {
+.section-title {
     padding: 10px;
     border-right: solid 3px;
     text-align: right;
     min-width: 100px;
 }
 
-section p {
-    display: flex;
+.about-section-par {
     margin: 10px;
     padding: 10px;
 }
 
-article {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 10;
-    padding: 15px 15px 15px 50px;
-}
-
-article h2 {
-    padding: 10px;
-    border-right: solid 3px;
-    text-align: right;
-    min-width: 100px;
-}
-
-article div {
-    justify-content: center;
-}
-
-article h3 {
-    display: flex;
-    justify-content: center;
-    color: var(--charcoal);
-    background-color: var(--frost);
-    font-weight: bold;
-    font-size: 125%;
-    padding: 5px;
-    width: 115px;
-}
-
-.card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 20px;
+.pic-border{
+    object-fit: contain;
+    margin: 0 20px 0 20px;
     box-shadow: 0 4px 8px 0 rgba(135, 43, 43, 0.943);
     transition: 0.3s;
     border: solid var(--frost) 3px;
-    max-width: 300px;
 }
 
-.card:hover {
+.pic-border:hover {
     box-shadow: 0 12px 20px 0 rgba(233, 29, 29, 0.843);
+}
+
+.pic-container{
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sm-pic{
+    width: 45%;
+}
+
+.row{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center{
+    justify-content: center;
+}
+
+.margin-top-twenty {
+    margin-top: 20px;
 }
 
 .container {
