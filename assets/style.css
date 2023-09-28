@@ -34,20 +34,20 @@ h2 {
 header {
     width: 100%;
     margin: 10px 10px 10px 0px;
-    padding: 0;
     text-align: left;
 }
 
 header h1 {
     display: inline-block;
     background-color: var(--frost);
-    border: solid 3px var(--darkred);
+    border: solid 3px var(--linen);
     border-left: solid 3px var(--frost);
 }
 
 header nav {
     float: right;
-    padding: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 header nav ul li {
@@ -60,26 +60,46 @@ header nav ul li {
     border-bottom: solid 3px;
 }
 
-figure {
-    height: 150px;
-    width: 100%;
-    background-color: linear-gradient(
-        var(--sangiune) 0%,
-        var(--charcoal) 100%
-    );
+#about-me {
+    color: var(--frost);
 }
 
-figure h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+#work {
+    color: var(--frost);
+}
+
+#contact-me {
+    color: var(--frost);
+}
+
+.nav-link:hover {
+    background-color: var(--darkred);
+}
+
+a:link {
+    color: var(--frost);
+}
+
+a:visited {
+    color: var(--linen);
+}
+
+.banner {
+    height: 160px;
+    width: 100%;
+    background-image: linear-gradient(var(--darkred), var(--charcoal));
+}
+
+.tag-line {
     background-color: var(--frost);
     color: var(--charcoal);
-    width: 200px;
     float: right;
+    margin-top: 115px;
+    padding: 5px 10px 5px 10px;
 }
 
 .section {
+    width: 90%;
     display: flex;
     margin: 10;
     padding: 15px 15px 15px 50px;
@@ -95,38 +115,47 @@ figure h2 {
 .about-section-par {
     margin: 10px;
     padding: 10px;
+    font-size: 110%;
 }
 
-.pic-border{
-    object-fit: contain;
-    margin: 0 20px 0 20px;
-    box-shadow: 0 4px 8px 0 rgba(135, 43, 43, 0.943);
-    transition: 0.3s;
-    border: solid var(--frost) 3px;
-}
-
-.pic-border:hover {
-    box-shadow: 0 12px 20px 0 rgba(233, 29, 29, 0.843);
-}
-
-.pic-container{
+.pic-container {
     max-width: 90%;
     display: flex;
     flex-direction: column;
-    
+}
+
+.top-pic {
+    /* height: 30%; */
+    object-fit: cover;
+}
+
+.lg-pic {
+    margin-left: 45px;
+    width: 93%;
+    /* object-fit: contain; */
+    box-shadow: 0 4px 8px 0 rgba(135, 43, 43, 0.943);
+    transition: 0.4s;
+    border: solid var(--frost) 3px;
 }
 
 .sm-pic{
     width: 45%;
+    margin: 0 20px 20px 20px;
+    object-fit: cover;
+    margin: 5px 20px 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(135, 43, 43, 0.943);
+    transition: 0.4s;
+    border: solid var(--frost) 3px;
+}
+
+.pic-hover:hover {
+    box-shadow: 0 12px 20px 8px rgba(233, 29, 29, 0.843);
 }
 
 .row{
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-}
-
-.center{
     justify-content: center;
 }
 
@@ -134,17 +163,12 @@ figure h2 {
     margin-top: 20px;
 }
 
-.container {
-    padding: 0;
-    margin: -35px 0 0 0;
-
-}
-
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
+    width: 90%;
 }
 
 footer h2 {
@@ -154,7 +178,7 @@ footer h2 {
     min-width: 140px;
 }
 
-footer ul {
+.foot-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
