@@ -1,4 +1,4 @@
-# Challenge 2 UTA
+# Challenge 2 UTA - My Portfolio #1
 Challenge 2 for UTA Coding Bootcamp
 
 ## Description
