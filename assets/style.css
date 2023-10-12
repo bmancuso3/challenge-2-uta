@@ -144,6 +144,10 @@ a:visited {
     border: solid var(--frost) 3px;
 }
 
+.link-pic {
+    object-fit: cover;
+}
+
 .sm-pic{
     width: 45%;
     margin: 0 20px 20px 20px;
